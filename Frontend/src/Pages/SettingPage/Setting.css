@@ -1,0 +1,44 @@
+/* Default Light Mode Styles */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.profile-container {
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: auto;
+  }
+  
+  /* Dark Mode Styles */
+  .profile-container.dark-mode {
+    background-color: #070707;
+    color: #ffffff;
+  }
+  
+  input.dark-mode,
+  button.dark-mode {
+    background-color: #555555;
+    color: #ffffff;
+  }
+  
